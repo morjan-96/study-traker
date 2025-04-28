@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:study_traker/screens/home_screen.dart';
+import 'package:study_traker/auth/screen/login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,6 +15,6 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: HomeScreen());
+    return MaterialApp(debugShowCheckedModeBanner: false, home: LoginScreen());
   }
 }
